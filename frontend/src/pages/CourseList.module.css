@@ -1,0 +1,70 @@
+.page {
+  max-width: 760px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: var(--gray-900);
+}
+
+.empty {
+  color: var(--gray-400);
+  font-size: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  text-decoration: none;
+  display: block;
+}
+
+.cardInner {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.card:hover .cardInner {
+  border-color: var(--gray-300);
+  box-shadow: var(--shadow-md);
+}
+
+.cardBody {
+  flex: 1;
+  margin-bottom: 16px;
+}
+
+.cardTitle {
+  font-size: 16px;
+  color: var(--gray-900);
+  margin-bottom: 6px;
+}
+
+.desc {
+  font-size: 14px;
+  color: var(--gray-500);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.instructor {
+  font-size: 13px;
+  color: var(--gray-400);
+}

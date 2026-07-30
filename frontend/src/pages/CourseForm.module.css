@@ -1,0 +1,25 @@
+.page {
+  max-width: 520px;
+}
+
+.pageTitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--gray-900);
+}
+
+.card {
+  padding: 28px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  padding-top: 4px;
+}

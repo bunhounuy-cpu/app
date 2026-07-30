@@ -1,0 +1,19 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.default {
+  background: var(--gray-100);
+  color: var(--gray-600);
+}
+
+.accent {
+  background: var(--accent-bg);
+  color: var(--accent);
+}

@@ -1,0 +1,77 @@
+.page {
+  max-width: 600px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 24px;
+  color: var(--gray-900);
+}
+
+.browseLink {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-900);
+}
+
+.browseLink:hover {
+  text-decoration: underline;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 48px 24px;
+}
+
+.emptyText {
+  color: var(--gray-400);
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.course {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.courseBody {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.courseTitle {
+  font-size: 16px;
+  color: var(--gray-900);
+}
+
+.courseDesc {
+  font-size: 14px;
+  color: var(--gray-500);
+  line-height: 1.5;
+}
+
+.courseFooter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.instructor {
+  font-size: 13px;
+  color: var(--gray-400);
+}
