@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://course-management-838s.onrender.com/api';
 
 async function request(endpoint, options = {}) {
   const { method = 'GET', body, auth = false } = options;
